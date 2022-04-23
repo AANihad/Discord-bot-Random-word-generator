@@ -1,0 +1,12 @@
+{
+	"name": "random-word-bot",
+	"version": "1.0.0",
+	"description": "A bot that will rndomly choose 3 words",
+	"main": "bot.js",
+	"author": "Nihad",
+	"dependencies": {
+		"discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+		"random-words": "^1.1.2",
+		"winston": "^3.7.2"
+	}
+}
