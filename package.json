@@ -8,8 +8,5 @@
 		"discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
 		"random-words": "^1.1.2",
 		"winston": "^3.7.2"
-	},
-	"scripts": {
-	  "start": "node bot.js"
 	}
 }
