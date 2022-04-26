@@ -33,7 +33,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
     // Our bot needs to know if it will execute a command
     // It will listen for messages that will start with `!`
-    if ((channelID == "wheel")&&(message.substring(0, 1) == '!')) {
+    if ((message.substring(0, 1) == '!')) {
     // if (message.content.startsWith(prefix) && (channelID == "general")){
         var args = message.substring(1).split(' ');
         var cmd = args[0];
@@ -45,7 +45,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     // u.send("You already spinned the wheel")
                 // else{
                     // u.send("||"+randomWords({ exactly: 3, join: " - " })+"||");
-                    
+                    console.log(bot.channels)
                     bot.sendMessage({
                         to: channelID,
                         message: (randomWords({ exactly: 3, join: " - " }))
